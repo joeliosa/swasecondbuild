@@ -1,16 +1,28 @@
 import React, { Component } from 'react';
 import './App.css';
+import './Artistsearch';
+import './Searchaddbox';
 
 class App extends React.Component {
   render() {
+    
     return (
     <div className="App">
+      
       <header id="nmheader">
         <h1>Welcome to Notemad!</h1>
       </header>
-      <div id="searchbar">
-        <h2>Search for an artist:</h2>
+      
+      <div className="search-n-add-box">
+        <Searchaddbox />
       </div>
+
+      <div id="country-selector">
+        </div>
+
+      <div id="results">
+      </div>
+
     </div>
     )
   };

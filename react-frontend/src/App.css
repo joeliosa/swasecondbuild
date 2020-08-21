@@ -2,7 +2,7 @@
   background: black;
 }
 
-#searchbar {
+.search-n-add-box {
   width: 20%;
     margin: 3% auto;
     height: 35vh;
